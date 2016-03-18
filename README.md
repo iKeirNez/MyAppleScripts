@@ -1,3 +1,5 @@
+These scripts have been written in such a way as to not contain any personal details (such as usernames, passwords, ip addresses etc). To accomplish this I’ve had to write these scripts as functions which are then called from another script (not published on this GitHub repo). Basically all this means is the scripts will not always be plug-and-play (may require some modification to get running).
+
 # Handling binary AppleScript files
 
 Create the following shell script in `/usr/local/bin` and name it `git-ascr-filter`.
