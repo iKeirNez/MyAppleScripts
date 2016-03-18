@@ -1,4 +1,4 @@
-# Set up for pushing and pulling binary AppleScript files
+# Handling binary AppleScript files
 
 Create the following shell script in `/usr/local/bin` and name it `git-ascr-filter`.
 
