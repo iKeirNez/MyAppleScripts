@@ -45,7 +45,7 @@ git config filter.ascr.clean "git-ascr-filter --clean %f"
 git config filter.ascr.smudge "git-ascr-filter --smudge %f"
 ```
 
-Finally, add this to `.gitattributes`:
+Finally, add this to `.gitattributes` (*only if setting up a new repo, if cloning this repo this step is not required*):
 
 ```
 *.scpt filter=ascr
