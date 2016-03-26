@@ -4,7 +4,7 @@ These scripts have been written in such a way as to not contain any personal det
 
 Create the following shell script in `/usr/local/bin` and name it `git-ascr-filter`.
 
-```
+```shell
 #!/bin/sh
 if [ $# -ne 2 ]; then
     echo "Usage: $0 --clean/--smudge FILE">&2
